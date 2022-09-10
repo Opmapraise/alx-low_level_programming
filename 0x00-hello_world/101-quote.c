@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	fwrite(2, "and that poece of arts is useful\" - Dora Korpar, 2015-10-19\n",
-	sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
+	write(2, "and that poece of arts is useful\" - Dora Korpar, 2015-10-19\n", sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19"));
 	return (1);
 }
